@@ -4,7 +4,7 @@
 
 A comprehensive guide for Milwaukee's **Vibe Coding Thursday** event, designed to help anyone—regardless of traditional programming experience—build applications through AI-assisted development.
 
-[![GitHub](https://img.shields.io/badge/GitHub-VibeCodingThursday-blue)](https://github.com/yourusername/VibeCodingThursday)
+[![GitHub](https://img.shields.io/badge/GitHub-VibeCodingThursday-blue)](https://github.com/crafty-arl/VibeCodingThursday)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
