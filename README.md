@@ -463,5 +463,4 @@ No, it's full bootcamp material. Day 1 → Week 1 → Month 1 → Advanced.
 *Milwaukee Tech Community | Mitobyte*
 *5pm-7pm Every Thursday*
 
-*Last Updated: January 2025*
-*Built with ❤️ by the community*
+	
