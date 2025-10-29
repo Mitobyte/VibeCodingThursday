@@ -1,6 +1,6 @@
 # Sample Prompts for Vibe‑Coding
 
-Good prompting is critical when working with AI coding agents.  Lossless notes that *specifications are often too large to use directly as prompts, while standalone prompts can lack context*【13041302901661†L80-L88】.  A good workflow is to write a concise specification of your project in a separate document, then use prompts to request specific tasks within that specification.
+Good prompting is critical when working with AI coding agents.  Lossless notes that *specifications are often too large to use directly as prompts, while standalone prompts can lack context*.  A good workflow is to write a concise specification of your project in a separate document, then use prompts to request specific tasks within that specification.
 
 Below are some sample prompts you can adapt to your own projects.  Feel free to modify them to fit your use‑case.
 
@@ -40,4 +40,4 @@ For more complex projects, store the full project specification in a separate fi
 
 > “Given the specification in `SPEC.md`, implement the user authentication module using **Django**.  The module should include user registration, login, logout and password reset functionality, with proper validation and error handling.”
 
-By splitting the *what* (the specification) from the *how* (the prompt), you give the AI sufficient context while keeping individual prompts manageable【13041302901661†L80-L88】.
+By splitting the *what* (the specification) from the *how* (the prompt), you give the AI sufficient context while keeping individual prompts manageable.
