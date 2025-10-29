@@ -1,267 +1,467 @@
-# Vibe Coding Thursday Resource Guide
+# Vibe Coding Thursday Bootcamp
+## Transform Ideas into Apps with AI | Milwaukee Tech Community
 
-> **Transform ideas into apps using natural language and AI assistance**
+> **Build real applications in 2 hours using natural language—no coding experience required**
 
-A comprehensive resource collection for Milwaukee's **Vibe Coding Thursday** community, designed to help anyone—regardless of traditional programming experience—build applications through AI-assisted development.
-
-[![GitHub](https://img.shields.io/badge/GitHub-VibeCodingThursday-blue)](https://github.com/crafty-arl/VibeCodingThursday)
+[![GitHub](https://img.shields.io/badge/GitHub-VibeCodingThursday-blue)](https://github.com/Mitobyte/VibeCodingThursday)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Mitobyte](https://img.shields.io/badge/Community-Mitobyte-orange)](https://mitobyte.com)
 
 ---
 
-## 🚀 Start Here
+## 🎯 Event Day Quick Start (5pm-7pm)
 
-### New to Vibe Coding?
-1. **[Quick Start Guide](QUICK-START.md)** - Build your first app in 15 minutes
-2. **[What is Vibe Coding?](#what-is-vibe-coding)** - Understand the methodology
-3. **[Choose Your Learning Path](#learning-paths)** - Find the right path for you
+**Coming to tonight's event? Start here:**
 
-### Returning Users?
-- **[Complete Index](GUIDE-INDEX.md)** - Navigate all resources
-- **[Guides](guides/)** - Comprehensive documentation
-- **[Examples](examples/)** - Practical walkthroughs
-- **[Reference](reference/)** - Quick lookups
+### ⚡ 5 Minutes to Build
+1. Open [event-day/QUICK-SETUP.md](event-day/QUICK-SETUP.md)
+2. Pick ONE tool (Replit recommended)
+3. Browse [templates/](templates/) - find your role
+4. Copy a template prompt
+5. **Start building!**
 
----
+### 📋 Role-Based Templates (Just Copy & Paste)
 
-## Table of Contents
+**Pick your role, copy a prompt, build something:**
 
-- [What is Vibe Coding?](#what-is-vibe-coding)
-- [Learning Paths](#learning-paths)
-- [Resource Organization](#resource-organization)
-- [Quick Links](#quick-links)
-- [Community](#community)
-- [Contributing](#contributing)
-- [License](#license)
+| Your Role | What You Can Build (in 2 hours) | Templates |
+|-----------|--------------------------------|-----------|
+| 👨‍💻 **Developer** | REST API, auth system, CLI tool | [View Templates](templates/by-role/developer.md) |
+| 🎨 **Designer** | Landing page, design system, portfolio | [View Templates](templates/by-role/designer.md) |
+| 🚀 **Entrepreneur** | MVP landing, pricing page, waitlist | [View Templates](templates/by-role/entrepreneur.md) |
+| 📚 **Student** | Study app, grade calculator, notes app | [View Templates](templates/by-role/student.md) |
+| 📱 **Content Creator** | Content calendar, analytics, blog editor | [View Templates](templates/by-role/content-creator.md) |
 
----
-
-## What is Vibe Coding?
-
-**Vibe coding** is a modern programming approach where you describe applications in plain English and let AI assistants generate working code.
-
-### Core Benefits
-
-✅ **Accessible to Everyone**
-- No traditional programming experience required
-- Learn by building, not by studying syntax
-- AI handles implementation details
-
-✅ **Focus on What Matters**
-- Product vision and user experience
-- Business logic and features
-- Architecture and design decisions
-
-✅ **Professional Quality**
-- AI follows coding best practices
-- Generates tests and documentation
-- Maintains consistency
-
-✅ **Rapid Development**
-- Prototype in hours, not days
-- Iterate quickly based on feedback
-- Scale from MVP to production
-
-### Learn More
-
-- **[Complete Overview](guides/COMPLETE-RESOURCE-GUIDE.md#what-is-vibe-coding)** - Philosophy & methodology
-- **[Tips & Tricks](guides/TIPS-AND-TRICKS.md)** - 100+ practical strategies
-- **[Quick Start](QUICK-START.md)** - Build something now
+### 🆘 Need Help?
+- **Stuck?** [event-day/DEBUGGING-QUICKREF.md](event-day/DEBUGGING-QUICKREF.md)
+- **Need ideas?** [event-day/PROMPT-CHEATSHEET.md](event-day/PROMPT-CHEATSHEET.md)
+- **Want to plan first?** [event-day/PLANNING-TEMPLATE.md](event-day/PLANNING-TEMPLATE.md)
 
 ---
 
-## Learning Paths
+## 🎓 Bootcamp Structure
 
-Choose your path based on experience level. Each path includes guides, tools, prompts, and examples.
+This repository is organized as bootcamp material with progressive learning:
 
-### 🌱 Beginner: Web-Based Tools
-**Best for:** Complete beginners, no installation required
+```
+Day 1 (Tonight!)  →  Week 1  →  Month 1  →  Advanced Mastery
+   2 hours           5-10 hrs    20-40 hrs    Ongoing
+```
 
-**What You'll Use:**
-- [Replit + Ghostwriter](https://replit.com) - Most beginner-friendly
-- [Lovable](https://lovable.dev) - Best designs
-- [v0 by Vercel](https://v0.dev) - Learn as you build
+### 📅 Day 1: Event Night (5pm-7pm)
+**Goal:** Build something working in 2 hours
 
-**Timeline:** 2-4 weeks to first functional app
+**Resources:**
+- **[event-day/](event-day/)** - Everything for tonight
+  - [QUICK-SETUP.md](event-day/QUICK-SETUP.md) - Tool setup (5 min)
+  - [TOOL-PICKER.md](event-day/TOOL-PICKER.md) - Choose your tool
+  - [PROMPT-CHEATSHEET.md](event-day/PROMPT-CHEATSHEET.md) - Copy-paste prompts
+  - [PROMPT-BUILDER.md](event-day/PROMPT-BUILDER.md) - Build custom prompts
+  - [PLANNING-TEMPLATE.md](event-day/PLANNING-TEMPLATE.md) - Plan without AI
+  - [DEBUGGING-QUICKREF.md](event-day/DEBUGGING-QUICKREF.md) - Fix errors fast
+  - [EVENT-CHECKLIST.md](event-day/EVENT-CHECKLIST.md) - Don't forget anything
 
-**Start Here:** [Beginner Learning Path](learning-paths/beginner/README.md)
+- **[templates/](templates/)** - Role-based copy-paste prompts
+  - [Developer](templates/by-role/developer.md) - APIs, auth, architecture
+  - [Designer](templates/by-role/designer.md) - UI, portfolios, design systems
+  - [Entrepreneur](templates/by-role/entrepreneur.md) - MVPs, SaaS, stores
+  - [Student](templates/by-role/student.md) - Study tools, trackers
+  - [Content Creator](templates/by-role/content-creator.md) - Content tools
 
----
-
-### 🌿 Intermediate: Spec-Kit Development
-**Best for:** Ready for structure, team projects, professional workflows
-
-**What You'll Use:**
-- [GitHub Spec-Kit](https://github.com/github/spec-kit) (42.9k+ stars)
-- Structured six-phase workflow
-- Constitution → Specify → Plan → Tasks → Implement → Validate
-
-**Timeline:** 4-8 weeks to master spec-driven development
-
-**Start Here:** [Intermediate Learning Path](learning-paths/intermediate/README.md)
-
-**Complete Guide:** [Spec-Kit Guide](guides/SPEC-KIT-GUIDE.md)
-
----
-
-### 🌲 Advanced: CLI Programming
-**Best for:** Experienced developers, automation, production systems
-
-**What You'll Use:**
-- [Claude Code](https://www.anthropic.com/claude-code) - Codebase understanding & Git automation
-- [Aider](https://aider.chat) - Terminal pair programming
-- [Cursor](https://cursor.sh) - AI code editor
-
-**Timeline:** Ongoing mastery
-
-**Start Here:** [Advanced Learning Path](learning-paths/advanced/README.md)
+**What to Build Tonight:**
+- ✅ Todo list app (30 min)
+- ✅ Calculator (20 min)
+- ✅ Weather app (45 min)
+- ✅ Landing page (40 min)
+- ✅ Grade calculator (30 min)
+- ✅ Any template from your role
 
 ---
 
-## Resource Organization
+### 📅 Week 1: Build Multiple Projects
+**Goal:** Gain confidence, try different tools, build 2-3 apps
 
-This guide is organized into five main sections:
+**Resources:**
+- **[Beginner Learning Path](learning-paths/beginner/)** - Web-based tools
+  - Replit, Lovable, v0 deep dives
+  - Project walkthroughs
+  - Best practices
+  - Troubleshooting
 
-### 📚 [Guides](guides/)
-Comprehensive in-depth documentation
+- **[Prompt Library](reference/prompts-library.md)** - More prompts
+- **[Tool Catalog](reference/tools-catalog.md)** - Compare 30+ tools
+- **[Best Practices](reference/best-practices.md)** - Do's and don'ts
+
+**Week 1 Projects:**
+- Day 1-2: Simple apps (calculator, timer, quiz)
+- Day 3-4: Data apps (weather, news reader)
+- Day 5-7: Interactive apps (todo, notes, tracker)
+
+---
+
+### 📅 Month 1: Structured Development
+**Goal:** Learn professional workflows, build complex projects
+
+**Resources:**
+- **[Spec-Kit Guide](guides/SPEC-KIT-GUIDE.md)** (~21,000 words)
+  - Professional 6-phase workflow
+  - Constitution → Specify → Plan → Tasks → Implement → Validate
+  - Complete examples
+  - Team collaboration
+
+- **[Intermediate Learning Path](learning-paths/intermediate/)** - Spec-driven development
+- **[Spec-Kit Todo Example](examples/spec-kit-todo-example.md)** - 2-3 hour walkthrough
+- **[Tips & Tricks](guides/TIPS-AND-TRICKS.md)** - 100+ strategies
+
+**Month 1 Projects:**
+- Week 1-2: Simple spec-driven app
+- Week 3-4: Full-featured application with backend
+
+---
+
+### 📅 Month 2+: Advanced Mastery
+**Goal:** Master CLI tools, production systems, automation
+
+**Resources:**
+- **[Advanced Learning Path](learning-paths/advanced/)** - CLI tools mastery
+  - Claude Code, Aider, Cursor
+  - Terminal workflows
+  - Git automation
+  - Production deployment
 
 - **[Complete Resource Guide](guides/COMPLETE-RESOURCE-GUIDE.md)** (~16,000 words)
-  - Tool catalog (30+ tools)
-  - Learning paths
-  - Best practices
+  - All tools compared
+  - Advanced techniques
   - Community resources
+  - Career paths
 
-- **[Spec-Kit Guide](guides/SPEC-KIT-GUIDE.md)** (~21,000 words)
-  - Complete spec-driven development guide
-  - Installation & setup
-  - Six-phase workflow
-  - Practical examples
-
-- **[Tips & Tricks](guides/TIPS-AND-TRICKS.md)** (~12,000 words)
-  - Prompt engineering mastery
-  - Common pitfalls & solutions
-  - Workflow optimization
-  - Debugging strategies
+**Advanced Projects:**
+- Microservices architecture
+- Full-stack SaaS application
+- Mobile apps
+- CLI tools
 
 ---
 
-### 🎓 [Learning Paths](learning-paths/)
-Skill-based progression tracks
+## 💡 What is Vibe Coding?
 
-- **[Beginner](learning-paths/beginner/)** - Web-based tools, first projects
-- **[Intermediate](learning-paths/intermediate/)** - Spec-Kit, team collaboration
-- **[Advanced](learning-paths/advanced/)** - CLI tools, automation
+**Vibe coding** = Describe your app in plain English, AI generates working code.
 
-Each path includes:
-- Comprehensive README
-- Tool recommendations
-- Example prompts
-- Best practices
+### Why It Works
 
----
+✅ **No Coding Experience Needed**
+- Write in plain English
+- AI handles the code
+- Learn by building
 
-### 💡 [Examples](examples/)
-Practical walkthroughs
+✅ **Build Real Apps in Hours**
+- MVP in 2 hours
+- Production-ready in days
+- Iterate instantly
 
-- **[Spec-Kit Todo App](examples/spec-kit-todo-example.md)** - Complete 2-3 hour walkthrough
-- More examples coming soon!
+✅ **Professional Quality**
+- Best practices built-in
+- Modern frameworks
+- Maintainable code
 
----
+✅ **For Everyone**
+- Students building projects
+- Entrepreneurs testing ideas
+- Developers accelerating work
+- Creators building tools
 
-### 📖 [Reference](reference/)
-Quick lookups and cheat sheets
-
-- **[Tools Catalog](reference/tools-catalog.md)** - All tools categorized
-- **[Prompts Library](reference/prompts-library.md)** - Ready-to-use templates
-- **[Best Practices](reference/best-practices.md)** - Universal guidelines
-- **[Debugging Guide](reference/debugging-guide.md)** - Troubleshooting help
-
----
-
-### 🗺️ [Complete Index](GUIDE-INDEX.md)
-Master navigation document
-
-- Topic-based navigation
-- Use-case guides
-- Resource statistics
-- Learning journey map
-
----
-
-## Quick Links
-
-### Getting Started
-- **[Quick Start (15 min)](QUICK-START.md)** - Build your first app now
-- **[Guide Index](GUIDE-INDEX.md)** - Navigate all resources
-- **[Choose Your Path](learning-paths/README.md)** - Find your skill level
-
-### Most Popular
-- **[Spec-Kit Guide](guides/SPEC-KIT-GUIDE.md)** - Most comprehensive spec-driven development guide
-- **[Tips & Tricks](guides/TIPS-AND-TRICKS.md)** - 100+ practical strategies
-- **[Tools Catalog](reference/tools-catalog.md)** - Compare 30+ tools
-
-### By Need
-- **Need tool comparison?** → [Tools Catalog](reference/tools-catalog.md)
-- **Stuck on prompts?** → [Prompt Engineering](guides/TIPS-AND-TRICKS.md#prompt-engineering-mastery)
-- **Want examples?** → [Examples Directory](examples/)
-- **Debugging issues?** → [Debugging Guide](reference/debugging-guide.md)
-- **Security concerns?** → [Best Practices](reference/best-practices.md#api-key-security)
-
----
-
----
-
-## Navigation Map
+### How It Works
 
 ```
-README.md (You are here)
-├── Quick Start → QUICK-START.md
-├── Complete Index → GUIDE-INDEX.md
-├── Guides/
-│   ├── Complete Resource Guide
-│   ├── Spec-Kit Guide
-│   └── Tips & Tricks
-├── Learning Paths/
-│   ├── Beginner
-│   ├── Intermediate
-│   └── Advanced
-├── Examples/
-│   └── Spec-Kit Todo App
-└── Reference/
-    ├── Tools Catalog
-    ├── Prompts Library
-    ├── Best Practices
-    └── Debugging Guide
+You: "Build a todo app with React and Tailwind"
+  ↓
+AI: [Generates complete working code]
+  ↓
+You: "Add categories and due dates"
+  ↓
+AI: [Updates code with new features]
+  ↓
+Result: Working app in minutes
 ```
 
 ---
 
-## Quick Actions
+## 📁 Repository Structure
 
-**I want to...**
+### Quick Access (Day 1)
+```
+event-day/          ← Start here for tonight's event
+├── README.md       ← Event day hub
+├── QUICK-SETUP.md  ← 5-minute tool setup
+├── TOOL-PICKER.md  ← Choose your tool
+├── PROMPT-CHEATSHEET.md  ← Copy-paste prompts
+├── PROMPT-BUILDER.md     ← Custom prompts
+├── PLANNING-TEMPLATE.md  ← Plan your project
+├── DEBUGGING-QUICKREF.md ← Fix errors fast
+└── EVENT-CHECKLIST.md    ← Event preparation
 
-- **Build something right now** → [Quick Start](QUICK-START.md)
-- **Learn the basics** → [Beginner Path](learning-paths/beginner/README.md)
-- **Use Spec-Kit** → [Spec-Kit Guide](guides/SPEC-KIT-GUIDE.md)
-- **Find a tool** → [Tools Catalog](reference/tools-catalog.md)
-- **Get prompt ideas** → [Prompts Library](reference/prompts-library.md)
-- **Debug an issue** → [Debugging Guide](reference/debugging-guide.md)
-- **See everything** → [Complete Index](GUIDE-INDEX.md)
+templates/          ← Role-based templates
+├── README.md
+└── by-role/
+    ├── developer.md        ← APIs, auth, systems
+    ├── designer.md         ← UI, portfolios, design
+    ├── entrepreneur.md     ← MVPs, SaaS, growth
+    ├── student.md          ← Study apps, trackers
+    └── content-creator.md  ← Content tools
+```
+
+### Progressive Learning (Week 1+)
+```
+learning-paths/     ← Structured learning
+├── beginner/       ← Week 1: Web tools
+├── intermediate/   ← Month 1: Spec-Kit
+└── advanced/       ← Month 2+: CLI tools
+
+guides/             ← Deep dive resources
+├── COMPLETE-RESOURCE-GUIDE.md  (~16,000 words)
+├── SPEC-KIT-GUIDE.md           (~21,000 words)
+└── TIPS-AND-TRICKS.md          (~12,000 words)
+
+reference/          ← Quick lookups
+├── tools-catalog.md      ← Compare 30+ tools
+├── prompts-library.md    ← More templates
+├── best-practices.md     ← Do's and don'ts
+└── debugging-guide.md    ← Troubleshooting
+
+examples/           ← Walkthroughs
+└── spec-kit-todo-example.md  ← 2-3 hours
+```
 
 ---
 
-## Happy Vibe Coding! 🚀
+## 🚀 Quick Start by Goal
+
+### "I'm at the event RIGHT NOW"
+1. **[event-day/QUICK-SETUP.md](event-day/QUICK-SETUP.md)** (5 min)
+2. **[templates/](templates/)** - Pick your role
+3. **Copy prompt → Paste → Build**
+
+### "I want to build something specific"
+1. **[templates/](templates/)** - Find your role
+2. **Browse templates** for your project type
+3. **Customize and build**
+
+### "I'm a complete beginner"
+1. **[event-day/TOOL-PICKER.md](event-day/TOOL-PICKER.md)** - Choose tool (Replit recommended)
+2. **[event-day/PROMPT-CHEATSHEET.md](event-day/PROMPT-CHEATSHEET.md)** - Simple prompts
+3. **[learning-paths/beginner/](learning-paths/beginner/)** - Week 1 path
+
+### "I want to learn professionally"
+1. **[guides/SPEC-KIT-GUIDE.md](guides/SPEC-KIT-GUIDE.md)** - Professional workflow
+2. **[examples/spec-kit-todo-example.md](examples/spec-kit-todo-example.md)** - Walkthrough
+3. **[learning-paths/intermediate/](learning-paths/intermediate/)** - Structured path
+
+### "I'm already a developer"
+1. **[learning-paths/advanced/](learning-paths/advanced/)** - CLI tools
+2. **[guides/COMPLETE-RESOURCE-GUIDE.md](guides/COMPLETE-RESOURCE-GUIDE.md)** - All resources
+3. **[templates/by-role/developer.md](templates/by-role/developer.md)** - Advanced templates
+
+---
+
+## 🎯 Tonight's Success Checklist
+
+**By 7pm, you should have:**
+- ☐ Built something that works (even if simple!)
+- ☐ Learned one new thing
+- ☐ Asked for help when stuck
+- ☐ Shared what you built
+- ☐ Saved your project
+- ☐ Had fun!
+
+**Bonus:**
+- ☐ Helped someone else
+- ☐ Tried multiple tools
+- ☐ Posted on social (#VibeCodingThursday)
+- ☐ Planned next project
+
+---
+
+## 📚 Learning Tools
+
+### For Tonight (5pm-7pm)
+| Need | Resource | Time |
+|------|----------|------|
+| Tool setup | [QUICK-SETUP.md](event-day/QUICK-SETUP.md) | 5 min |
+| Project idea | [Templates](templates/) | 2 min |
+| Custom prompt | [PROMPT-BUILDER.md](event-day/PROMPT-BUILDER.md) | 10 min |
+| Fix error | [DEBUGGING-QUICKREF.md](event-day/DEBUGGING-QUICKREF.md) | 2 min |
+
+### For This Week
+| Goal | Resource | Time |
+|------|----------|------|
+| Build 2nd project | [Prompt Cheatsheet](event-day/PROMPT-CHEATSHEET.md) | 1 hour |
+| Try new tool | [Tool Picker](event-day/TOOL-PICKER.md) | 30 min |
+| Learn best practices | [Best Practices](reference/best-practices.md) | 20 min |
+| Understand tools | [Tools Catalog](reference/tools-catalog.md) | 30 min |
+
+### For This Month
+| Goal | Resource | Time |
+|------|----------|------|
+| Professional workflow | [Spec-Kit Guide](guides/SPEC-KIT-GUIDE.md) | 2-3 hours |
+| Complex project | [Spec-Kit Example](examples/spec-kit-todo-example.md) | 2-3 hours |
+| Master prompting | [Tips & Tricks](guides/TIPS-AND-TRICKS.md) | 1-2 hours |
+| Advanced techniques | [Complete Guide](guides/COMPLETE-RESOURCE-GUIDE.md) | 3-4 hours |
+
+---
+
+## 🌐 Tool Recommendations
+
+### Tonight (Fastest Start)
+- **[Replit](https://replit.com)** - Most beginner-friendly (5 min setup)
+- **[Lovable](https://lovable.dev)** - Best design (beautiful apps)
+- **[v0](https://v0.dev)** - Learn React (clean code)
+
+### This Week (Try Multiple)
+- **Replit** - Full applications
+- **Lovable** - Beautiful UIs
+- **v0** - React components
+- **Bolt.new** - Full-stack apps
+
+### This Month (Professional)
+- **GitHub Spec-Kit** - Structured workflow
+- **Cursor** - AI code editor
+- **Claude Code** - Terminal AI
+
+[→ Full Tool Comparison](reference/tools-catalog.md)
+
+---
+
+## 💬 Community & Support
+
+### During Event
+- Ask organizers (that's why they're here!)
+- Pair with neighbors
+- Share your screen
+- Celebrate wins out loud
+
+### After Event
+- **Discord/Slack** - [Community link]
+- **GitHub Issues** - Report bugs, request features
+- **Social Media** - #VibeCodingThursday
+- **Next Event** - [Event schedule]
+
+### Contributing
+We welcome contributions!
+- Add templates
+- Improve docs
+- Share examples
+- Report issues
+
+[→ Learn how to contribute](CONTRIBUTING.md)
+
+---
+
+## 🎖️ Bootcamp Progression
+
+### Level 1: Event Attendee (Day 1)
+✅ Built first app at event
+✅ Used basic templates
+✅ Fixed first error
+
+### Level 2: Active Builder (Week 1)
+✅ Built 2-3 different apps
+✅ Tried multiple tools
+✅ Customized templates
+
+### Level 3: Confident Creator (Month 1)
+✅ Used Spec-Kit workflow
+✅ Built complex application
+✅ Deployed to production
+
+### Level 4: Vibe Coding Master (Month 2+)
+✅ Uses CLI tools
+✅ Contributes templates
+✅ Helps other learners
+✅ Builds professionally
+
+---
+
+## 📊 Repository Stats
+
+- **50,000+ words** of documentation
+- **30+ tools** cataloged and compared
+- **100+ prompts** ready to copy-paste
+- **5 role-based** template collections
+- **3 learning paths** (beginner → advanced)
+- **2-hour event** to working app
+- **Open source** and community-driven
+
+---
+
+## 🔗 Essential Links
+
+### Start Building (Tonight)
+- **[Event Day Home](event-day/README.md)** - Everything for tonight
+- **[Quick Setup](event-day/QUICK-SETUP.md)** - 5 minutes to ready
+- **[Templates by Role](templates/)** - Copy & paste prompts
+- **[Debugging Help](event-day/DEBUGGING-QUICKREF.md)** - Fix errors fast
+
+### Learn More (This Week)
+- **[Beginner Path](learning-paths/beginner/)** - Week 1 curriculum
+- **[Tool Catalog](reference/tools-catalog.md)** - Compare tools
+- **[Prompt Library](reference/prompts-library.md)** - More prompts
+- **[Best Practices](reference/best-practices.md)** - Do's and don'ts
+
+### Go Pro (This Month)
+- **[Spec-Kit Guide](guides/SPEC-KIT-GUIDE.md)** - Professional workflow
+- **[Complete Guide](guides/COMPLETE-RESOURCE-GUIDE.md)** - Everything
+- **[Tips & Tricks](guides/TIPS-AND-TRICKS.md)** - 100+ strategies
+- **[Advanced Path](learning-paths/advanced/)** - CLI mastery
+
+### Navigate Everything
+- **[Complete Index](GUIDE-INDEX.md)** - Master navigation
+- **[Quick Start](QUICK-START.md)** - 15-minute intro
+
+---
+
+## ❓ Common Questions
+
+**"Is this really for beginners?"**
+Yes! No coding experience needed. Tonight you'll build something real.
+
+**"What if I get stuck?"**
+Organizers are here to help. Plus: [DEBUGGING-QUICKREF.md](event-day/DEBUGGING-QUICKREF.md)
+
+**"Do I need to install anything?"**
+No! Use browser tools (Replit, Lovable, v0). Setup takes 5 minutes.
+
+**"Can I actually build something useful?"**
+Absolutely. People build MVPs, side projects, and production apps this way.
+
+**"What if I miss the event?"**
+All materials work standalone. Start with [event-day/](event-day/) anytime.
+
+**"Is this just for the event?"**
+No, it's full bootcamp material. Day 1 → Week 1 → Month 1 → Advanced.
+
+---
+
+## 🎉 Let's Build!
+
+**See you at 5pm! Come ready to:**
+- Build something in 2 hours
+- Learn a new skill
+- Meet other builders
+- Have fun with AI coding
+- Start your vibe coding journey
 
 **Remember:**
-- Start simple, iterate often
-- Review AI-generated code
-- Commit frequently
-- Share your journey
-- Help others learn
+- Done is better than perfect
+- Errors are learning opportunities
+- Everyone starts somewhere
+- Ask for help early and often
+- Share what you build
 
 ---
 
-*Last Updated: October 2025*
-*Maintained by Milwaukee Vibe Coding Thursday Community*
-*Contributions welcome!*
+*Vibe Coding Thursday Bootcamp*
+*Milwaukee Tech Community | Mitobyte*
+*5pm-7pm Every Thursday*
+
+*Last Updated: January 2025*
+*Built with ❤️ by the community*
